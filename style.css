@@ -1,0 +1,166 @@
+body{
+  font-family:"Open Sans", "Helvetica", "Arial", "sans-serif";
+  overflow-x:hidden;
+}
+#first{
+  height: 100vh;
+  background:url(http://cryptosite-com.stackstaging.com/wp-content/uploads/2017/10/ezgif.com-resize.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#fifth{
+  background:background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height:70vh;
+}
+#header {
+    /*Opacity start*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    -khtml-opacity: 0.8;
+
+    /*Opacity end*/
+    color: white;
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    z-index:1;
+}
+.active{
+      background-color: rgba(0, 0, 0,0.6);
+  transition: all 1s ease-out;
+}
+
+.tagline{
+  font-size:25px;
+  color: white;
+  text-align:center;
+  margin-top:30vh;
+  font-weight:500;
+}
+
+.title{
+    font-size: 90px;
+    font-weight:900;
+}
+.heading{
+  font-size: 60px;
+  font-weight:900;
+}
+
+.under-title{
+  font-size:20px;
+  font-weight:100;
+}
+.btn-gettoken{
+  margin-top:5px;
+  border-radius: 5px;
+  background:white;
+/*   border-color:#ebebeb; */
+  color:#4c5667;
+}
+
+.btn-gettoken:hover{
+  background:#1abc9c;
+  color:white;
+  transition: all 0.4s;
+}
+.paragraph{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 1.35714286em;
+    line-height: 1.68421053em;
+}
+.content{
+
+}
+.btn-learn-about{
+  margin-top:5px;
+  border-radius: 5px;
+  background:#1abc9c;
+  color:white;
+}
+.btn-learn-about:hover{
+  background:orange;
+  transition: all 0.4s;
+  color:white;
+}
+.second{
+  margin-top:25vh;
+ float:right;
+  margin-right:2vw;
+}
+.third{
+  margin-top:25vh;
+  float:left;
+  margin-left:2vw;
+}
+.fourth{
+  margin-top:25vh;
+ float:right;
+  margin-right:2vw;
+}
+
+.menu{
+  font-size:15px;
+  text-align:right;
+  margin-right:30px;
+}
+
+.nav{
+ display:inline-block;
+  padding-left:30px;
+  padding-top:15px;
+  color:white;
+}
+.nav-line{
+ display:inline-block;
+  padding-left:5px;
+  padding-top:15px;
+  margin-right:-25px;
+  color:#1bbc9b;
+}
+.nav:hover{
+  color:orange;
+}
+
+.follow{
+  margin-top:5vh;
+  text-align:center;
+  font-size:40px;
+}
+.icons{
+  font-size:50px;
+}
+
+.content-heading{
+  font-size:30px;
+  text-align:center;
+  font-weight:bold;
+}
+
+.content-text{
+  margin-top:20px;
+  font-size:20px;
+  text-align:left;
+}
+
+.extra-1,.extra-2,.extra-3{
+  display:inline-block;
+  margin-top:10vh;
+  width:30vw;
+  position:float;
+  vertical-align: top;
+
+}
+.box{
+    border: 1px solid #666666;
+  border-radius: 6px;
+}
+.extra-1,.extra-2{
+  margin-right:3vw;
+}
